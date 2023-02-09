@@ -56,7 +56,17 @@ class _ChatGptPageState extends State<ChatGptPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("chat GPT")),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        title: const Text(
+          "chat GPT",
+          style: TextStyle(
+            color: Colors.black,
+          ),
+        ),
+        centerTitle: true,
+        elevation: 0,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(12),
         child: Column(
