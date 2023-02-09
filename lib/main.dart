@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:json_example/screens/chat_gpt/chat_gpt_page.dart';
 import 'package:json_example/screens/home/home_page.dart';
 import 'package:json_example/screens/password/password_page.dart';
 
@@ -15,10 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-       
         primarySwatch: Colors.blue,
       ),
-      home: PasswordPage(),
+      home: ChatGptPage(),
     );
   }
 }
